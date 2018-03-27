@@ -1,4 +1,4 @@
 module.exports.routes = {
-  "/": { view: "homepage" },
-  "GET /heroes": "HeroController.getHeroes"
+  "GET /aliases": "AliasController.find",
+  "POST /aliases": "AliasController.create"
 }
