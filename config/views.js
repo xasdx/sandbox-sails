@@ -1,24 +1,11 @@
-/**
- * View Engine Configuration
- * (sails.config.views)
- *
- * Server-sent views are a classic and effective way to get your app up
- * and running. Views are normally served from controllers.  Below, you can
- * configure your templating language/framework of choice and configure
- * Sails' layout support.
- *
- * For more information on views and layouts, check out:
- * http://sailsjs.org/#!/documentation/concepts/Views
- */
-
 module.exports.views = {
 
   /****************************************************************************
   *                                                                           *
-  * View engine (aka template language) to use for your app's *server-side*   *
+  * View engine (aka template language) to use for your app"s *server-side*   *
   * views                                                                     *
   *                                                                           *
-  * Sails+Express supports all view engines which implement TJ Holowaychuk's  *
+  * Sails+Express supports all view engines which implement TJ Holowaychuk"s  *
   * `consolidate.js`, including, but not limited to:                          *
   *                                                                           *
   * ejs, jade, handlebars, mustache underscore, hogan, haml, haml-coffee,     *
@@ -30,14 +17,14 @@ module.exports.views = {
   *                                                                           *
   ****************************************************************************/
 
-  engine: 'ejs',
+  engine: "ejs",
 
 
   /****************************************************************************
   *                                                                           *
   * Layouts are simply top-level HTML templates you can use as wrappers for   *
-  * your server-side views. If you're using ejs or jade, you can take         *
-  * advantage of Sails' built-in `layout` support.                            *
+  * your server-side views. If you"re using ejs or jade, you can take         *
+  * advantage of Sails" built-in `layout` support.                            *
   *                                                                           *
   * When using a layout, when one of your views is served, it is injected     *
   * into the `body` partial defined in the layout. This lets you reuse header *
@@ -61,27 +48,27 @@ module.exports.views = {
   *                                                                           *
   * Using Multiple Layouts                                                    *
   *                                                                           *
-  * If you're using the default `ejs` or `handlebars` Sails supports the use  *
+  * If you"re using the default `ejs` or `handlebars` Sails supports the use  *
   * of multiple `layout` files. To take advantage of this, before rendering a *
   * view, override the `layout` local in your controller by setting           *
-  * `res.locals.layout`. (this is handy if you parts of your app's UI look    *
+  * `res.locals.layout`. (this is handy if you parts of your app"s UI look    *
   * completely different from each other)                                     *
   *                                                                           *
   * e.g. your default might be                                                *
-  * layout: 'layouts/public'                                                  *
+  * layout: "layouts/public"                                                  *
   *                                                                           *
   * But you might override that in some of your controllers with:             *
-  * layout: 'layouts/internal'                                                *
+  * layout: "layouts/internal"                                                *
   *                                                                           *
   ****************************************************************************/
 
-  layout: 'layout',
+  layout: "layout",
 
   /****************************************************************************
   *                                                                           *
   * Partials are simply top-level snippets you can leverage to reuse template *
-  * for your server-side views. If you're using handlebars, you can take      *
-  * advantage of Sails' built-in `partials` support.                          *
+  * for your server-side views. If you"re using handlebars, you can take      *
+  * advantage of Sails" built-in `partials` support.                          *
   *                                                                           *
   * If `false` or empty partials will be located in the same folder as views. *
   * Otherwise, if a string is specified, it will be interpreted as the        *
@@ -90,6 +77,4 @@ module.exports.views = {
   ****************************************************************************/
 
   partials: false
-
-
-};
+}
