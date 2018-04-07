@@ -1,5 +1,6 @@
 {
   "name": "sandbox-sails",
+  "version": "0.1.0",
   "dependencies": {
     "ejs": "2.5.5",
     "grunt": "1.0.1",
