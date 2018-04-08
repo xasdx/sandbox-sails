@@ -2,6 +2,8 @@
   "name": "sandbox-sails",
   "version": "0.1.0",
   "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
     "rc": "1.0.1",
     "sails": "~0.12.14",
     "sails-disk": "~0.10.9",
@@ -9,7 +11,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha test/**/*.test.js --ui exports --timeout 5000 --recursive --reporter spec --check-leaks"
   },
   "main": "app.js"
 }
