@@ -12,7 +12,7 @@
   "scripts": {
     "debug": "node debug app.js",
     "start": "node app.js",
-    "test": "mocha test/**/*.test.js --ui exports --timeout 5000 --recursive --reporter spec --check-leaks"
+    "test": "mocha test/**/*.test.js --ui exports --timeout 5000 --recursive --reporter spec"
   },
   "main": "app.js"
 }
