@@ -2,7 +2,7 @@
   "name": "sandbox-sails",
   "version": "0.1.0",
   "dependencies": {
-    "chai": "^4.1.2",
+    "chakram": "^1.5.0",
     "mocha": "^5.0.5",
     "rc": "1.0.1",
     "sails": "~0.12.14",
